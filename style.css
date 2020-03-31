@@ -146,15 +146,24 @@ input {display: block;}
     display: flex;
     justify-content: space-around;
     padding: 1.5rem 1rem;
+    /* width: 100%; */
 }
 
 @media(max-width: 750px) {
+    #video {
+        width: 75%;
+    }
+
     #home p {
         font-size: 1rem;
         padding: 1rem 0;
     }
 
     #email, #submit {
+        width: 100%;
+    }
+
+    #contact {
         width: 100%;
     }
 }
